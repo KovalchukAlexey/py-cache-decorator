@@ -15,6 +15,7 @@ def cache(func: Callable) -> Callable:
         return cache_data[key]
     return wrapper
 
+
 #
 # @cache
 # def long_time_func(a: int, b: int, c: int) -> int:
